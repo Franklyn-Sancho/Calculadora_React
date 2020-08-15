@@ -1,3 +1,21 @@
+# Calculadora do MacOS
+
+## Projetada no curso web moderno da Cod3r 
+
+Calculadora simples feita em JSX e CSS. 
+
+### As tecnologias usadas neste projeto foram: 
+
+* React 
+* javaScript
+* CSS 
+* node.js
+
+
+***
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
