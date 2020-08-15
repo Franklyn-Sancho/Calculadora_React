@@ -1,0 +1,35 @@
+:root {
+    --bg-button: #f0f0f0;
+    --border-button: solid 1px #888;
+}
+
+.button { /*A interface de todos os botões*/
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.button:active { /*O evento ao clicar o botão*/
+    background-color: #ccc;
+
+}
+
+.button.double { /*Função usada na tecla zero, tornando o duas vezes maior*/
+    grid-column: span 2;
+}
+
+.button.triple { /*Neste caso no botão AC, três vezes a mais*/
+    grid-column: span 3;
+}
+
+.button.operation { /*As operações*/
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.button.operation:active { /*a ação ao clicar no botão*/
+    background-color: #fa8231cc;
+}
